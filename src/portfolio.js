@@ -120,3 +120,25 @@ export const isBlogSectionVisible = false;
 export const openSource = { showGithubProfile: false };
 export const blogSection = { display: false };
 export const talkSection = { title: "", subtitle: "", talks: [] };
+export const illustration = {
+  animated: true,
+};
+export const viewResume = true;
+
+export const splashScreen = {
+  enabled: false,
+  animation: false,
+};
+export const bigProjects = {
+  title: "",
+  subtitle: "",
+  projects: [],
+  image: "",
+  repo: "",
+  display: false, // <--- hides the component safely
+};
+export const resumeSection = {
+  title: "Resume",
+  description: "View or download my resume",
+  url: "https://drive.google.com/file/d/1iVCZuo042_WmSbhYv1vHLYStXYE9NQ5C/view?usp=drive_link", // Replace with your actual resume link
+};
