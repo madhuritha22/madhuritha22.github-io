@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/madhuritha22.github-io/static/css/main.6b2cfdb7.css",
-    "main.js": "/madhuritha22.github-io/static/js/main.f55ca257.js",
+    "main.js": "/madhuritha22.github-io/static/js/main.2d4a1f25.js",
     "static/css/64.bba8fa55.chunk.css": "/madhuritha22.github-io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.98920275.chunk.js": "/madhuritha22.github-io/static/js/64.98920275.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/madhuritha22.github-io/static/css/769.b3cbb36b.chunk.css",
@@ -14,7 +14,7 @@
     "static/media/resume.pdf": "/madhuritha22.github-io/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/madhuritha22.github-io/index.html",
     "main.6b2cfdb7.css.map": "/madhuritha22.github-io/static/css/main.6b2cfdb7.css.map",
-    "main.f55ca257.js.map": "/madhuritha22.github-io/static/js/main.f55ca257.js.map",
+    "main.2d4a1f25.js.map": "/madhuritha22.github-io/static/js/main.2d4a1f25.js.map",
     "64.bba8fa55.chunk.css.map": "/madhuritha22.github-io/static/css/64.bba8fa55.chunk.css.map",
     "64.98920275.chunk.js.map": "/madhuritha22.github-io/static/js/64.98920275.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/madhuritha22.github-io/static/css/769.b3cbb36b.chunk.css.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.6b2cfdb7.css",
-    "static/js/main.f55ca257.js"
+    "static/js/main.2d4a1f25.js"
   ]
 }
