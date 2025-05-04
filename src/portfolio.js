@@ -138,9 +138,9 @@ const workExperiences = {
       ]
     },
     {
-      title: "OOPS and DBMS Intern",
+      role: "OOPS and DBMS Intern",
       company: "NIT Warangal",
-      duration: "May 2022 – Jun 2022",
+      date: "May 2022 – Jun 2022",
       descBullets: [
         "Assisted in schema design, normalization, and query optimization using MySQL",
         "Participated in team discussions on object-oriented programming and DBMS structure"
