@@ -53,22 +53,24 @@ const skillsSection = {
   skills: [
     "⚡ Analyzing real-world data using Python and ML libraries",
     "⚡ Designing full-stack applications with authentication and SQL-based backends",
-    "⚡ Building end-to-end ML pipelines including object localization and predictive modeling",
+    "⚡ Building end-to-end ML pipelines including object localization and predictive modeling"
   ],
-  
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "logos:python" },
-    { skillName: "Java", fontAwesomeClassname: "logos:java" },
-    { skillName: "SQL", fontAwesomeClassname: "logos:mysql" },
-    { skillName: "Pandas", fontAwesomeClassname: "simple-icons:pandas" },
-    { skillName: "NumPy", fontAwesomeClassname: "simple-icons:numpy" },
-    { skillName: "scikit-learn", fontAwesomeClassname: "simple-icons:scikitlearn" },
-    { skillName: "Matplotlib", fontAwesomeClassname: "simple-icons:matplotlib" },
-    { skillName: "Git", fontAwesomeClassname: "logos:git-icon" },
+    {skillName: "Python", fontAwesomeClassname: "logos:python"},
+    {skillName: "Java", fontAwesomeClassname: "logos:java"},
+    {skillName: "SQL", fontAwesomeClassname: "logos:mysql"},
+    {skillName: "Pandas", fontAwesomeClassname: "simple-icons:pandas"},
+    {skillName: "NumPy", fontAwesomeClassname: "simple-icons:numpy"},
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: "simple-icons:scikitlearn"
+    },
+    {skillName: "Matplotlib", fontAwesomeClassname: "simple-icons:matplotlib"},
+    {skillName: "Git", fontAwesomeClassname: "logos:git-icon"}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -84,7 +86,7 @@ const educationInfo = {
       logo_path: "slulogo.png", // optional: upload your university logo
       alt_name: "SLU",
       duration: "Aug 2024 – Present",
-      descriptions: ["Current GPA: 4.0/4.0"],
+      descriptions: ["Current GPA: 4.0/4.0"]
     },
     {
       schoolName: "National Institute of Technology Warangal",
@@ -92,7 +94,7 @@ const educationInfo = {
       logo_path: "nitw.png",
       alt_name: "NITW",
       duration: "Aug 2019 – May 2023",
-      descriptions: ["CGPA: 8.97/10.0"],
+      descriptions: ["CGPA: 8.97/10.0"]
     }
   ]
 };
@@ -133,18 +135,17 @@ const workExperiences = {
         "Assisted in maintaining property records and organizing sales data",
         " Used Excel and MySQL to track land listings, inquiries, and sales",
         " Helped improve operational efficiency with clean data management"
-        
       ]
     },
     {
       title: "OOPS and DBMS Intern",
       company: "NIT Warangal",
       duration: "May 2022 – Jun 2022",
-      descBullets:[
+      descBullets: [
         "Assisted in schema design, normalization, and query optimization using MySQL",
-        "Participated in team discussions on object-oriented programming and DBMS structure"]
+        "Participated in team discussions on object-oriented programming and DBMS structure"
+      ]
     }
-   
   ]
 };
 
@@ -165,7 +166,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Counterfeit Product Detector",
-      projectDesc: "A multi-modal machine learning app that detects counterfeit products using: Product image (CNN),Customer review text (TF-IDF),Product price (metadata).Built using TensorFlow, Gradio, and deployed to Hugging Face Spaces.",
+      projectDesc:
+        "A multi-modal machine learning app that detects counterfeit products using: Product image (CNN),Customer review text (TF-IDF),Product price (metadata).Built using TensorFlow, Gradio, and deployed to Hugging Face Spaces.",
       footerLink: [
         {
           name: "Try it live",
@@ -177,7 +179,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/nextuLogo.webp"),
       projectName: "Bellabeat Case Study",
-      projectDesc: "Analyzed fitness tracker data using R and SQL. Created dashboards and presented insights for health-focused product strategy (Google Data Analytics capstone).",
+      projectDesc:
+        "Analyzed fitness tracker data using R and SQL. Created dashboards and presented insights for health-focused product strategy (Google Data Analytics capstone).",
       footerLink: [
         {
           name: "Visit Website",
@@ -194,8 +197,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji(" Certifications "),
-  subtitle:
-    "Certifications that I have done !",
+  subtitle: "Certifications that I have done !",
 
   achievementsCards: [
     {
@@ -204,7 +206,7 @@ const achievementSection = {
       logo_path: "googlelogo.png",
       certificate_link: "#", // optional
       alt_name: "Google",
-      color_code: "#4285F4",
+      color_code: "#4285F4"
     },
     {
       title: "Intro to Data Science",
@@ -212,11 +214,10 @@ const achievementSection = {
       logo_path: "ibm_logo.png",
       certificate_link: "#",
       alt_name: "IBM",
-      color_code: "#1F70C1",
-    },
-    
+      color_code: "#1F70C1"
+    }
   ],
-   
+
   display: true // Set false to hide this section, defaults to true
 };
 
