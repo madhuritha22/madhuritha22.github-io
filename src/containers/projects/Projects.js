@@ -40,8 +40,9 @@ export default function Projects() {
     setrepo(array);
   }
   if (
-    !(typeof repo === "string" || repo instanceof String) && openSource &&
-    openSource.display 
+    !(typeof repo === "string" || repo instanceof String) &&
+    openSource &&
+    openSource.display
   ) {
     return (
       <Suspense fallback={renderLoader()}>
